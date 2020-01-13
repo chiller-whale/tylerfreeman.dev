@@ -1,6 +1,5 @@
 import App, { Container } from "next/app"
 import dynamic from "next/dynamic"
-// import { ReactAxeWrapper } from "../utils/react-axe-wrapper"
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
