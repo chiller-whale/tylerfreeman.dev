@@ -8,12 +8,8 @@ export function GlobalStyles() {
       styles={css`
         ${emotionReset}
         @font-face {
-          font-family: "ArcadeI";
-          src: url("/static/fonts/ARCADEI.woff2");
-        }
-
-        body {
-          background-color: skyblue;
+          font-family: "Poppins";
+          src: url("/static/fonts/poppins.woff2");
         }
       `}
     />
