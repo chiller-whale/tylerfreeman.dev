@@ -12,9 +12,13 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "types": ["cypress", "@types/testing-library__cypress"]
+    "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "cypress/integration/home/home.js"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "cypress/integration/home/home.js",
+    "./node_modules/@testing-library/jest-dom/extend-expect.d.ts"
+  ]
 }

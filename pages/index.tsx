@@ -1,12 +1,13 @@
-import { Layout } from "../components/Layout/Layout"
+import { Main } from "../components/Main/Main"
 import Link from "next/link"
 import { Header1, Header2 } from "../styles/typography"
 import { NextSeo } from "next-seo"
 import WindowsLogo from "../static/images/windows-95.png"
+import { DeveloperBio } from "../components/DeveloperBio/DeveloperBio"
 
 export default function Home() {
   return (
-    <Layout>
+    <Main>
       <NextSeo
         title="Freeman - Portfolio"
         description="Tyler Freeman Personal Portfolio"
@@ -17,9 +18,7 @@ export default function Home() {
         </h1>
       </section>
       <section>
-        <h1>
-          <Header1>This is what I am about as a developer</Header1>
-        </h1>
+        <DeveloperBio />
       </section>
       <section>
         <h1>
@@ -28,6 +27,6 @@ export default function Home() {
           </Header1>
         </h1>
       </section>
-    </Layout>
+    </Main>
   )
 }
