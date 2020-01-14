@@ -9,7 +9,7 @@ export function GlobalStyles() {
         ${emotionReset}
         @font-face {
           font-family: "Poppins";
-          src: url("/static/fonts/poppins.woff2");
+          src: url("/public/fonts/poppins.woff2");
         }
       `}
     />

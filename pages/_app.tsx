@@ -1,4 +1,4 @@
-import App, { Container } from "next/app"
+import App from "next/app"
 import dynamic from "next/dynamic"
 class MyApp extends App {
   render() {
@@ -13,9 +13,7 @@ class MyApp extends App {
     return (
       <>
         <ReactAxeWrapper />
-        <Container>
-          <Component {...pageProps} />
-        </Container>
+        <Component {...pageProps} />
       </>
     )
   }

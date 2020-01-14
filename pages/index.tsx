@@ -1,8 +1,6 @@
 import { Main } from "../components/Main/Main"
-import Link from "next/link"
-import { Header1, Header2 } from "../styles/typography"
+import { Header1 } from "../styles/typography"
 import { NextSeo } from "next-seo"
-import WindowsLogo from "../static/images/windows-95.png"
 import { DeveloperBio } from "../components/DeveloperBio/DeveloperBio"
 
 export default function Home() {
