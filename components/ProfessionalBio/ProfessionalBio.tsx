@@ -35,9 +35,7 @@ export function ProfessionalBio() {
           Worked on embedded team with Java spring backend to integrate with
           banking backend. Built on Microservice architecture.
         </li>
-        <li>Serverless!</li>
-        <li>Functional Programming</li>
-        <li>Cloud development</li>
+        <li>Worked on Go API that integrated with Salesforce</li>
       </ul>
     </>
   )
