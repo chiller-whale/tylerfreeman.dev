@@ -1,20 +1,20 @@
-import { Main } from "../components/Main/Main"
-import { Header1 } from "../styles/typography"
 import { NextSeo } from "next-seo"
 import { DeveloperBio } from "../components/DeveloperBio/DeveloperBio"
 import { ProfessionalBio } from "../components/ProfessionalBio/ProfessionalBio"
+import { Hero } from "../components/Hero/Hero"
+import { GlobalStyles } from "../styles/global-styles"
+import { PersonalBio } from "../components/PersonalBio/PersonalBio"
 
 export default function Home() {
   return (
-    <Main>
+    <main>
+      <GlobalStyles />
       <NextSeo
         title="Freeman - Portfolio"
         description="Tyler Freeman Personal Portfolio"
       />
       <section>
-        <h1>
-          <Header1>Hi! I&apos;m Tyler</Header1>
-        </h1>
+        <Hero />
       </section>
       <section>
         <DeveloperBio />
@@ -22,6 +22,9 @@ export default function Home() {
       <section>
         <ProfessionalBio />
       </section>
-    </Main>
+      <section>
+        <PersonalBio />
+      </section>
+    </main>
   )
 }
