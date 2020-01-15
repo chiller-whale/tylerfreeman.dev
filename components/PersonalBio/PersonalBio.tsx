@@ -1,9 +1,12 @@
 import * as React from "react"
+import { Header1 } from "../../styles/typography"
 
 export function PersonalBio() {
   return (
     <>
-      <h1>This is what i am into on a personal level!</h1>
+      <h1>
+        <Header1>This is what i am into on a personal level!</Header1>
+      </h1>
       <ul>
         <li>phonk music</li>
         <li>snowboarding</li>
