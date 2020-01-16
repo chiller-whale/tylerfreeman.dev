@@ -14,6 +14,7 @@ export function DeveloperBio() {
         <li>Serverless!</li>
         <li>Functional Programming</li>
         <li>Cloud development</li>
+        <li>Testing trophy</li>
       </ul>
     </>
   )

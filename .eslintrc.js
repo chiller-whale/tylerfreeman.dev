@@ -66,7 +66,7 @@ module.exports = {
       },
     },
     {
-      files: ["./pages/**/*.tsx"],
+      files: ["./pages/**/*.tsx", "**/*.stories.tsx"],
       rules: {
         "import/no-default-export": "off",
       },

@@ -11,6 +11,9 @@ export function GlobalStyles() {
           font-family: "Poppins";
           src: url("/fonts/poppins.woff2");
         }
+        body {
+          padding: 0 1em;
+        }
       `}
     />
   )
